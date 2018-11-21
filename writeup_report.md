@@ -26,11 +26,11 @@ First of all, to get a better view, I increased the thickness of lines to 8 in d
 
 Next, I did some major changes to the hough_lines() function. To keep the actual code of hough_lines() short, I implemented my own functions just above the cell of helper functions.
 
-I introduced a new variable 'flag' to check the sign of the slope while calculating intercept and slope. This flag helped in eliminating any unwanted or irredular cases of hough lines.
+I introduced a new variable 'flag' to check the sign of the slope while calculating intercept and slope. This flag helped in eliminating any unwanted or irregular cases of hough lines.
 
-Next, I used a very simple average() function to simply decrease number of lines of code and convenience. This was done to calculate the average of multiple hough lines obtained to get the best fit single line.
+Next, I used a very simple average() function to simply decrease number of lines of code and for convenience. This was done to calculate the average of multiple hough lines obtained to get the best fit single line.
 
-Finally got the complete extended line by using the slope and intercept calculated before in the getline() function.
+Finally I got the complete extended line by using the slope and intercept calculated before in the getline() function.
 
 
 
